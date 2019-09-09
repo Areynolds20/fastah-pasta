@@ -1,0 +1,19 @@
+body{
+    background-color: #54ccf3
+}
+p {
+    color: #095d77;
+}
+h2{
+    color: #4b636b;
+}
+h1{
+    color: #0a9cca;
+    background-color: #095d77;
+    font-style: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+}
