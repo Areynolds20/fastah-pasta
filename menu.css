@@ -1,0 +1,43 @@
+body{
+    background-color: darkorange
+}
+h1{
+    font-size: 80px;
+    text-align: center;
+    background-color: red;
+    height: 90px;
+}
+h2{
+    font-size: 80px;
+    text-align: left;
+    background-color: #b53f0d;
+}
+p{
+    font-size: 40px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+   justify-content: space-evenly;
+  }
+.food h2{
+text-align: center;
+  }
+  @media (max-width: 900px){
+      .grid-container{
+          grid-template-columns:1fr;
+      }
+  }
+  @media (max-width: 500px){
+      h1{
+          font-size:45px;
+      }
+      h2{
+          font-size:30px;
+      }
+      p{
+          font-size:15px;
+      }
+  }
+  
