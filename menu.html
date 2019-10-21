@@ -5,16 +5,10 @@
    
     </head>
     <body>
-        <header>
-            <h1 style="font-family:'Franklin Gothic Medium;">
-                <strong>
-                    Fastah Pastah
-                </strong>
-            </h1>
-          
-        </header>
-        <main class=grid-container>
-            <div class=food>
+        <div w3-include-html="header.html"></div>
+        <div w3-include-html="navigationmenu.html"></div>
+    <main class=grid-container>
+        <div class=food>
                 <h2>
                     Pasta
                 </h2>
@@ -126,6 +120,8 @@
 
             </div>
         </main>
-        
+        <script type="text/javascript"src="include.js"></script>
+        <script type="text/javascript"src="toggle-menu.js"></script>
+        <script>includeHTML();</script>
     </body>
 </html>
