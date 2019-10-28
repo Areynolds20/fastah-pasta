@@ -1,0 +1,234 @@
+
+ body{
+    background-color: darkorange
+}
+h1{
+    font-size: 80px;
+    text-align: center;
+    background-color: red;
+    height: 90px;
+    margin-block-start: 10px; 
+    margin-block-end:10px;
+}
+ul{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+h2{
+    font-size: 80px;
+    text-align: left;
+    background-color: #b53f0d;
+}
+p{
+    font-size: 40px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+   justify-content: space-evenly;
+  }
+.food h2{
+text-align: center;
+margin-block-start: 0px; 
+  }
+  @media (max-width: 900px){
+      .grid-container{
+          grid-template-columns:1fr;
+      }
+  }
+  @media (max-width: 500px),(min-resolution: 200dpi){
+      h1{
+          font-size:45px;
+      }
+      h2{
+          font-size:30px;
+      }
+      p{
+          font-size:15px;
+      }
+  }
+  li {
+      float: left;
+  }
+  body{
+    background-color: darkorange
+}
+h1{
+    font-size: 80px;
+    text-align: center;
+    background-color: red;
+    height: 90px;
+    margin-block-start: 10px; 
+    margin-block-end:10px;
+}
+ul{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+h2{
+    font-size: 80px;
+    text-align: left;
+    background-color: #b53f0d;
+}
+p{
+    font-size: 40px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+   justify-content: space-evenly;
+  }
+.food h2{
+text-align: center;
+margin-block-start: 0px; 
+  }
+  @media (max-width: 900px){
+      .grid-container{
+          grid-template-columns:1fr;
+      }
+  }
+  @media (max-width: 500px),(min-resolution: 200dpi){
+      h1{
+          font-size:45px;
+      }
+      h2{
+          font-size:30px;
+      }
+      p{
+          font-size:15px;
+      }
+  }
+  li {
+      float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  li a:hover {
+    background-color: #111111;
+  }
+
+
+
+.burger {
+    height: 3em;
+    width: 3em;
+    position: relative;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-transition: .2s all;
+    -o-transition: .2s all;
+    transition: .2s all;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.burger .burger-lines:after {
+    left: 0;
+    top: -1em;
+}
+
+.burger .burger-lines:before {
+    left: 1em;
+    top: 1em;
+}
+
+.burger:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 150%;
+    width: 150%;
+    top: -25%;
+    left: -25%;
+}
+
+.burger .burger-lines {
+    top: 50%;
+    margin-top: -0.125em;
+}
+
+.burger .burger-lines,
+.burger .burger-lines:after,
+.burger .burger-lines:before {
+    pointer-events: none;
+    display: block;
+    content: '';
+    width: 100%;
+    border-radius: 0.25em;
+    background-color: white;
+    height: 0.25em;
+    position: absolute;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+}
+
+.burger .burger-lines:after {
+    left: 0;
+    top: -1em;
+}
+
+.burger .burger-lines:before {
+    left: 1em;
+    top: 1em;
+}
+
+.burger.burger-squeeze .burger-lines,
+.burger.burger-squeeze .burger-lines:after,
+.burger.burger-squeeze .burger-lines:before {
+    -webkit-transition: .2s top .2s, .1s left, .2s transform, .4s background-color .2s;
+    -o-transition: .2s top .2s, .1s left, .2s transform, .4s background-color .2s;
+    transition: .2s top .2s, .1s left, .2s transform, .4s background-color .2s;
+}
+
+.burger.burger-squeeze .burger-lines:after,
+.burger.burger-squeeze .burger-lines:before {
+    width: 2em;
+}
+
+.burger.burger-squeeze.open .burger-lines,
+.burger.burger-squeeze.open .burger-lines:after,
+.burger.burger-squeeze.open .burger-lines:before {
+    -webkit-transition: .2s background-color, .2s top, .2s left, .2s transform .15s;
+    -o-transition: .2s background-color, .2s top, .2s left, .2s transform .15s;
+    transition: .2s background-color, .2s top, .2s left, .2s transform .15s;
+}
+
+.burger.burger-squeeze.open .burger-lines {
+    background-color: transparent;
+}
+
+.burger.burger-squeeze.open .burger-lines:before,
+.burger.burger-squeeze.open .burger-lines:after {
+    left: 0.5em;
+    top: 0px;
+}
+
+.burger.burger-squeeze.open .burger-lines:before {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.burger.burger-squeeze.open .burger-lines:after {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+} 
