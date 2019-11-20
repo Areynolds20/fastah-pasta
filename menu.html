@@ -3,42 +3,45 @@
     <head>
             <link rel="stylesheet" type="text/css"href="menu.css">
             <link rel="stylesheet" type="text/css"href="burger.menu.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
    
     </head>
     <body>
         <div w3-include-html="header.html"></div>
+        <div w3-include-html="cart.html"></div>
         <div w3-include-html="navigationmenu.html"></div>
-    <main class=grid-container>
-        <div class=food>
+    <main class="grid-container" id="food-menu">
+        <!-- <div class=food>
                 <h2>
-                    Pasta
+                    Pasta 
+                    
                 </h2>
                 <p>
-                    chicken alfredo
+                    chicken alfredo 7
                 </p>
                 <p>
-                    chicken parm
+                    chicken parm 7
                 </p>
                 <p>
-                    spaghetti
+                    spaghetti 7
                 </p>
                 <p>
-                    ravioli
+                    ravioli 7
                 </p>
                 <p>
-                    macaroni
+                    macaroni 7
                 </p>
                 <p>
-                    lasagne
+                    lasagne 7
                 </p>
                 <p>
-                    rigatoni
+                    rigatoni 7
                 </p>
                 <p>
-                    linguine
+                    linguine 7
                 </p>
                 <p>
-                    fettaccine alfredo (vegetarian)
+                    fettaccine alfredo (vegetarian) 9
                 </p>
                 <img src="https://thestayathomechef.com/wp-content/uploads/2017/12/Pasta-Pomodoro-4-small.jpg" alt="picture of pasta" width="75%">
 
@@ -48,37 +51,37 @@
                     pizza
                 </h2>
                 <p>
-                    cheese
+                    cheese 13
                 </p>
                 <p>
-                    sausage
+                    sausage 14
                 </p>
                 <p>
-                    pepperoni
-                </p>
+                    pepperoni 14
+                </p> 
                 <h2>
                     sandwiches
                 </h2>
                 <p>
-                    meatball sub
+                    meatball sub 10
                 </p>
                 <p>
-                    italian sausage sub
+                    italian sausage sub 10
                 </p>
                 <p>
-                    the monster! (speghetti and meatball sub)
+                    the monster! (speghetti and meatball sub) 10
                 </p>
                 <p>
-                    grilled cheese
+                    grilled cheese 8
                 </p>
                 <p>
-                    secret burger
+                    secret burger 8
                 </p>
                 <p>
-                    magic burger (vegan)
+                    magic burger (vegan) 8
                 </p>
                 <p>
-                    pizza burger
+                    pizza burger 8
                 </p>
                 <img src="https://hips.hearstapps.com/del.h-cdn.co/assets/17/08/2560x1706/gallery-1487862595-meatball-subl1-1.jpg" alt="picture of meatball sub" width="75%">
 
@@ -88,41 +91,47 @@
                     deserts
                 </h2>
                 <p>
-                    chocolate cake
+                    chocolate cake 6
                 </p>
                 <p>
-                    lemon pie
+                    lemon pie 6
                 </p>
                 <p>
-                    confetti cake
+                    confetti cake 6
                 </p>
                 <p>
-                    fruit cake
+                    fruit cake 6
                 </p>
                 <p>
-                    vanilla cake
+                    vanilla cake 6
                 </p>
                 <p>
-                    carrot cake
-                </p>
+                    carrot cake 6
+                </p> 
                 <h2>
-                    drinks
+                    drinks 6
                 </h2>
                 <p>
-                    pepsi products
+                    pepsi products 6
                 </p>
                 <p>
-                    rootbeer float
+                    rootbeer float 6
                 </p>
                 <p>
-                    lemonade
+                    lemonade 6 
                 </p>
-                <img src="https://thebusybaker.ca/wp-content/uploads/2018/04/healthy-3-ingredient-lemonade-title.jpg" alt="picture of meatball sub" width="75%">
+                <img src="https://thebusybaker.ca/wp-content/uploads/2018/04/healthy-3-ingredient-lemonade-title.jpg" alt="picture of meatball sub" width="75%"> -->
 
-            </div>
+            <!-- </div> -->
         </main>
         <script type="text/javascript"src="include.js"></script>
         <script type="text/javascript"src="toggle-menu.js"></script>
-        <script>includeHTML();</script>
+        <script type="text/javascript"src="FoodMenu.js"></script>
+        <script type="text/javascript"src="onlineorder.js"></script>
+        <script type="text/javascript"src="toggleCart.js"></script>
+        <script>includeHTML();
+        populateFood();
+        updateCart();</script>
+        
     </body>
 </html>

@@ -1,0 +1,70 @@
+{
+    "menu": [{
+            "name": "Pasta",
+            "items": [{
+                "name": "chicken alfredo",
+                "price": 6
+            }, {
+                "name": "chicken parm",
+                "price": 6
+            },{
+                "name": "spaghetti",
+                "image": "https://thestayathomechef.com/wp-content/uploads/2017/12/Pasta-Pomodoro-4-small.jpg",
+                "price": 6
+            },{
+                "name": "ravioli",
+                "price": 7
+            },{
+                "name": "macaroni",
+                "price": 7
+            },{
+                "name": "lasagne",
+                "price": 7
+            },{
+                "name":"rigatoni",
+                "price": 7
+            },{
+                "name":"fettaccine alfredo (vegetarian) 9",
+                "price": 9
+            }]
+        },
+        {
+            "name": "Pizza",
+            "items": [{
+                "name": "cheese",
+                "price": 6
+            },{
+                "name": "all other kinds of pizza",
+                "price": 9
+            }]
+        },
+        {
+            
+            }]
+        },
+        {
+            "name": "Sandwiches",
+            "items": [{
+                "name": "burger",
+                "price": 7
+            }, {
+                "name": "italian meatball sub",
+                "price": 8,
+                "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/17/08/2560x1706/gallery-1487862595-meatball-subl1-1.jpg"
+            }]
+        },
+        {
+            "name": "Beverages",
+            "items": [{
+                "name": "Coke Products",
+                "description": "Coke, Diet Coke, Cherry Coke, Sprite",
+                "price": 2
+            }, {
+                "name": "Specialty Sodas",
+                "description": "rootbeer float, lemonade,",
+                "price": 3,
+                "image": "https://insiderfinancial.com/wp-content/uploads/2019/03/Jones-Soda.jpg"
+            }]
+        }
+    ]
+}

@@ -88,7 +88,7 @@ p{
 text-align: center;
 margin-block-start: 0px; 
   }
-  @media (max-width: 900px){
+  @media (max-width: 900px),(min-resolution: 200dpi){
       .grid-container{
           grid-template-columns:1fr;
       }
